@@ -30,7 +30,24 @@ const questions = [
   { type: 'input', message: 'Usage', name: 'usage' },
   { type: 'input', message: 'Credits', name: 'credit' },
   { type: 'input', message: 'License', name: 'license' },
+  {
+    type: 'checkbox',
+    message: 'What languages do you know?',
+    name: 'stack',
+    choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
+  },
+  {
+    type: 'list',
+    message: 'What is your preferred method of communication?',
+    name: 'contact',
+    choices: ['email', 'phone', 'telekinesis'],
+  },
 ];
+
+inquirer.prompt(questions).then((res) => {
+  console.log(res);
+  writeToFile(res);
+});
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {}
