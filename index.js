@@ -46,11 +46,16 @@ const questions = [
 
 inquirer.prompt(questions).then((res) => {
   console.log(res);
-  writeToFile(res);
+  writeToFile('READMETEST.md', res);
 });
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  fs.appendFile(fileName, JSON.stringify(data), (err) =>
+    //if there is a error console error
+    err ? console.error(err) : console.log('Success!')
+  );
+}
 
 // TODO: Create a function to initialize app
 function init() {}
