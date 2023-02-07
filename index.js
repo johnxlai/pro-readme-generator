@@ -19,9 +19,17 @@ const questions = [
     message: 'What was your motivation?',
     name: 'motivation',
   },
-  { type: 'input', message: 'Why did you build this project', name: 'why' },
+  {
+    type: 'input',
+    message: 'Why did you build this project',
+    name: 'why',
+  },
   { type: 'input', message: 'What problem does it solve?', name: 'solved' },
   { type: 'input', message: 'What did you learn?', name: 'learned' },
+  { type: 'input', message: 'Installation Steps', name: 'installsteps' },
+  { type: 'input', message: 'Usage', name: 'usage' },
+  { type: 'input', message: 'Credits', name: 'credit' },
+  { type: 'input', message: 'License', name: 'license' },
 ];
 
 // TODO: Create a function to write README file
