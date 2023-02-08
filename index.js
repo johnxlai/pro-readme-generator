@@ -36,16 +36,14 @@ const questions = [
     name: 'stack',
     choices: ['HTML', 'MIT', 'JavaScript', 'MySQL'],
   },
-  { type: 'input', message: 'Contributing', name: 'contributing' },
-  { type: 'input', message: 'GitHub Username', name: 'gitHubUserName' },
-  { type: 'input', message: 'Email Address', name: 'emailAddress' },
-
   {
-    type: 'list',
-    message: 'What is your preferred method of communication?',
-    name: 'contact',
-    choices: ['email', 'phone', 'telekinesis'],
+    type: 'input',
+    message: 'How to contribute to this project?',
+    name: 'contributing',
   },
+  { type: 'input', message: 'What kind of tests user can run?', name: 'tests' },
+  { type: 'input', message: 'GitHub Username', name: 'gitHubUserName' },
+  { type: 'input', message: 'Email Address', name: 'email' },
 ];
 
 // TODO: Create a function to write README file

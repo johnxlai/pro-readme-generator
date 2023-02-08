@@ -55,14 +55,12 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer
 
 ## Tests
-Go the extra mile and write tests for your application.
+${tests}
 
 ## Questions
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+Please contact me via GitHub <a href="https://github.com/${gitHubUserName}">https://github.com/${gitHubUserName}</a>
 
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+You can also email me at <a href="mailto:${email}">${email}</a>
 
 `;
 }
