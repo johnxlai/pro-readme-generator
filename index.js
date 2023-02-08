@@ -34,7 +34,16 @@ const questions = [
     type: 'list',
     message: 'Please choose a lisense',
     name: 'stack',
-    choices: ['HTML', 'MIT', 'JavaScript', 'MySQL'],
+    choices: [
+      'Apache',
+      'Cloud',
+      'GNU',
+      'NPM PACKAGES',
+      'MIT',
+      'OpenBSD',
+      'Rust',
+      'Wordpress',
+    ],
   },
   {
     type: 'input',
