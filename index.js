@@ -13,7 +13,7 @@ const questions = [
   {
     type: 'input',
     message: 'Please enter project description?',
-    name: 'projectdescr',
+    name: 'projectDescr',
   },
   {
     type: 'input',
@@ -27,7 +27,7 @@ const questions = [
   },
   { type: 'input', message: 'What problem does it solve?', name: 'solved' },
   { type: 'input', message: 'What did you learn?', name: 'learned' },
-  { type: 'input', message: 'Installation Steps', name: 'installsteps' },
+  { type: 'input', message: 'Installation Steps', name: 'installSteps' },
   { type: 'input', message: 'Usage', name: 'usage' },
   { type: 'input', message: 'Credits', name: 'credit' },
   { type: 'input', message: 'License', name: 'license' },
@@ -45,11 +45,6 @@ const questions = [
   },
 ];
 
-inquirer.prompt(questions).then((res) => {
-  console.log(res);
-  writeToFile('READMETEST.md', res);
-});
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   let markDown = generateMarkdown(data);
@@ -60,7 +55,13 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  //prompt user on start of application
+  inquirer.prompt(questions).then((res) => {
+    console.log(res);
+    writeToFile('PROREADME.md', res);
+  });
+}
 
 // Function call to initialize app
 init();
