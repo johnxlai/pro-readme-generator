@@ -33,9 +33,9 @@ const questions = [
   { type: 'input', message: 'License', name: 'license' },
   {
     type: 'checkbox',
-    message: 'What languages do you know?',
+    message: 'Please choose a lisense',
     name: 'stack',
-    choices: ['HTML', 'CSS', 'JavaScript', 'MySQL'],
+    choices: ['HTML', 'MIT', 'JavaScript', 'MySQL'],
   },
   {
     type: 'list',
@@ -52,8 +52,8 @@ inquirer.prompt(questions).then((res) => {
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  console.log(generateMarkdown('test lisense'));
-  fs.appendFile(fileName, JSON.stringify(data), (err) =>
+  let markDown = generateMarkdown(data);
+  fs.appendFile(fileName, markDown, (err) =>
     //if there is a error console error
     err ? console.error(err) : console.log('Success!')
   );
