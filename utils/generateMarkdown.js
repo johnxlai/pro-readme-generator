@@ -28,11 +28,14 @@ liscense
 
 ## Description
 * ${projectDesc}
+
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
 
 ## Installation
 What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
@@ -55,7 +58,11 @@ If you created an application or package and would like other developers to cont
 Go the extra mile and write tests for your application.
 
 ## Questions
-If your project has a lot of features, list them here.
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 
 `;
 }
