@@ -1,13 +1,14 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 const questions = [
   {
     type: 'input',
     message: 'What is the project title?',
-    name: 'projectname',
+    name: 'title',
   },
   {
     type: 'input',
@@ -51,6 +52,7 @@ inquirer.prompt(questions).then((res) => {
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
+  console.log(generateMarkdown('test lisense'));
   fs.appendFile(fileName, JSON.stringify(data), (err) =>
     //if there is a error console error
     err ? console.error(err) : console.log('Success!')
