@@ -1,10 +1,10 @@
 
-# asdfasdf
+# yesy
 
-![License Badge](https://img.shields.io/badge/license-NPM-brightgreen)
+![License Badge](https://img.shields.io/badge/license-Apache-brightgreen)
 
 ## Description
-* asdf
+* asd
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -14,23 +14,23 @@
 - [License](#license)
 
 ## Installation
-* asdf
+* a
 
 ## Usage
-* asdf
+* a
 
 ## License
-* This project is under the NPM license.
-* If you want to get more details about the license, please visit <a href="https://choosealicense.com/">https://choosealicense.com/</a>
+* This project is under the Apache license.
+* If you want to get more details about the license, please visit [Choose License](https://choosealicense.com "Choose License")
 
 ## How to Contribute
-* asdf
+* a
 
 ## Tests
-* asdf
+* a
 
 ## Questions
-* Please contact me via GitHub <a href="https://github.com/asd">https://github.com/asd</a>
+* Please contact me via GitHub [Github Username](https://github.com/johnxlai)
 
-* You can reach me with additional questions <a href="mailto:asd">asd</a>
+* You can reach me with additional questions <a href="mailto:lai.john10@gmail.com">lai.john10@gmail.com</a>
 

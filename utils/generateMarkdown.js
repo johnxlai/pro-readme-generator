@@ -18,7 +18,7 @@ function renderLicenseSection(license) {
   return license != 'None'
     ? `## License
 * This project is under the ${license} license.
-* If you want to get more details about the license, please visit <a href="https://choosealicense.com/">https://choosealicense.com/</a>`
+* If you want to get more details about the license, please visit [Choose License](https://choosealicense.com "Choose License")`
     : '';
 }
 
@@ -70,7 +70,7 @@ ${licenseSection}
 * ${tests}
 
 ## Questions
-* Please contact me via GitHub <a href="https://github.com/${gitHubUserName}">https://github.com/${gitHubUserName}</a>
+* Please contact me via GitHub [Github Username](https://github.com/${gitHubUserName})
 
 * You can reach me with additional questions <a href="mailto:${email}">${email}</a>
 
