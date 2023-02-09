@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return license
+  return license != 'None'
     ? `![License Badge](https://img.shields.io/badge/license-${license}-brightgreen)`
     : '';
 }
@@ -9,13 +9,16 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  return license ? 'badge1' : '';
+  return license != 'None' ? 'badge1' : '';
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(licenseSection) {
-  return licenseSection ? licenseSection : '';
+function renderLicenseSection(license) {
+  return license != 'None'
+    ? `## License
+The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).`
+    : '';
 }
 
 // TODO: Create a function to generate markdown for README
@@ -33,6 +36,7 @@ function generateMarkdown(data) {
   } = data;
 
   const badge = renderLicenseBadge(license);
+  const licenseSection = renderLicenseSection(license);
 
   return `
 # ${title}
@@ -40,7 +44,7 @@ function generateMarkdown(data) {
 ${badge}
 
 ## Description
-${projectDesc}
+* ${projectDesc}
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -50,25 +54,24 @@ ${projectDesc}
 - [Questions](#questions)
 
 ## Installation
-${installation}
+* ${installation}
 
 ## Usage
-${usage}
+* ${usage}
 
-## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+${licenseSection}
 
 
 ## How to Contribute
-${contributing}
+* ${contributing}
 
 ## Tests
-${tests}
+* ${tests}
 
 ## Questions
-Please contact me via GitHub <a href="https://github.com/${gitHubUserName}">https://github.com/${gitHubUserName}</a>
+* Please contact me via GitHub <a href="https://github.com/${gitHubUserName}">https://github.com/${gitHubUserName}</a>
 
-You can reach me with additional questions <a href="mailto:${email}">${email}</a>
+* You can reach me with additional questions <a href="mailto:${email}">${email}</a>
 
 `;
 }

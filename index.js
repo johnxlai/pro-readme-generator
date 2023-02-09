@@ -38,6 +38,7 @@ const questions = [
       'OpenBSD',
       'Rust',
       'Wordpress',
+      'None',
     ],
   },
   {
