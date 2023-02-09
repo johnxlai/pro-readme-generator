@@ -34,7 +34,7 @@ liscense
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [How to Contribute](#How to Contribute)
+- [How to Contribute](#how-to-contribute)
 - [Questions](#questions)
 
 WHEN I click on the links in the Table of Contents

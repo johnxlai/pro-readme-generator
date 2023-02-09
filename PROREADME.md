@@ -1,11 +1,9 @@
 
-# kll;
+# y
 liscense
 
-##undefined
-
 ## Description
-*
+* y
 
 ## Table of Contents (Optional)
 - [Installation](#installation)
@@ -38,7 +36,7 @@ If you created an application or package and would like other developers to cont
 
 
 ## Questions
-Please contact me via GitHub <a href="https://github.com/">https://github.com/</a>
+Please contact me via GitHub <a href="https://github.com/johnxlai">https://github.com/johnxlai</a>
 
-You can also email me at <a href="mailto:"></a>
+You can reach me with additional questions via email <a href="mailto:lai.john10@gmail.com">lai.john10@gmail.com</a>
 
