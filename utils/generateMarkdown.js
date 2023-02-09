@@ -70,7 +70,7 @@ ${licenseSection}
 * ${tests}
 
 ## Questions
-* Please contact me via GitHub [Github Username](https://github.com/${gitHubUserName})
+* Please contact me via my [Github Username](https://github.com/${gitHubUserName})
 
 * You can reach me with additional questions <a href="mailto:${email}">${email}</a>
 
