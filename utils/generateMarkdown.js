@@ -67,7 +67,7 @@ ${tests}
 ## Questions
 Please contact me via GitHub <a href="https://github.com/${gitHubUserName}">https://github.com/${gitHubUserName}</a>
 
-You can also email me at <a href="mailto:${email}">${email}</a>
+You can reach me with additional questions <a href="mailto:${email}">${email}</a>
 
 `;
 }

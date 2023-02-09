@@ -16,11 +16,6 @@ const questions = [
     name: 'projectDesc',
   },
   {
-    type: 'confirm',
-    message: 'Do you want a table of contents?',
-    name: 'tableOfContents',
-  },
-  {
     type: 'input',
     message: 'What are the steps required to install your project?',
     name: 'installation',
@@ -33,7 +28,7 @@ const questions = [
   {
     type: 'list',
     message: 'Please choose a lisense',
-    name: 'stack',
+    name: 'license',
     choices: [
       'Apache',
       'Cloud',
