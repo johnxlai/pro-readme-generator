@@ -33,7 +33,7 @@ const questions = [
       'Apache',
       'Cloud',
       'GNU',
-      'NPM PACKAGES',
+      'NPM',
       'MIT',
       'OpenBSD',
       'Rust',

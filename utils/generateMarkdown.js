@@ -17,7 +17,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return license != 'None'
     ? `## License
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).`
+      * This project is under the ${license} license.
+      * If you want to get more details about the license, please visit <a href="https://choosealicense.com/">https://choosealicense.com/</a>`
     : '';
 }
 
@@ -61,7 +62,6 @@ ${licenseLink}
 * ${usage}
 
 ${licenseSection}
-
 
 ## How to Contribute
 * ${contributing}
