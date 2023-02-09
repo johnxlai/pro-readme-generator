@@ -17,8 +17,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   return license != 'None'
     ? `## License
-      * This project is under the ${license} license.
-      * If you want to get more details about the license, please visit <a href="https://choosealicense.com/">https://choosealicense.com/</a>`
+* This project is under the ${license} license.
+* If you want to get more details about the license, please visit <a href="https://choosealicense.com/">https://choosealicense.com/</a>`
     : '';
 }
 
