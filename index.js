@@ -64,7 +64,6 @@ function writeToFile(fileName, data) {
 function init() {
   //prompt user on start of application
   inquirer.prompt(questions).then((res) => {
-    console.log(res);
     writeToFile('PROREADME.md', res);
   });
 }
