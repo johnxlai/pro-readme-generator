@@ -3,7 +3,7 @@
 ![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
 ## User Story
-As a developer, I want a README generator, so i can quickly create a professional README.md file for any new project.
+As a developer, I want a README generator, so I can quickly create a professional README.md file for any new project.
 
 ## Description
 * This is a command-line application, which will prompt users for infomation about their repository. At the end of all the questions a professional README.md is generated with the title of the project, description, table of contents, installation steps, usage, license, how to contribute, tests and questions.
@@ -42,4 +42,6 @@ As a developer, I want a README generator, so i can quickly create a professiona
 
 
 ## Repo
+https://github.com/johnxlai/pro-readme-generator
+## WalkThrough Video
 https://github.com/johnxlai/pro-readme-generator
