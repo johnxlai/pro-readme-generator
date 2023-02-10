@@ -48,7 +48,7 @@ ${badge}
 ## Description
 * ${projectDesc}
 
-## Table of Contents (Optional)
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [How to Contribute](#how-to-contribute)

@@ -1,21 +1,45 @@
-# Professional README Generator Starter Code
+# Professional README.MD Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+## User Story
+As a developer, I want a README generator, so i can quickly create a professional README.md file for any new project.
+
+## Description
+* This is a command-line application, which will prompt users for infomation about their repository. At the end of all the questions a professional README.md is generated with the title of the project, description, table of contents, installation steps, usage, license, how to contribute, tests and questions.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [How to Contribute](#how-to-contribute)
+- [Questions](#questions)
+- [License](#license)
+
+## Installation
+* In the root directory you want to run "npm i" to initalize npm.
+
+## Usage
+* User can type "npm start" or "node index.js" to start the user prompt in the root directory. Upon finishing all the questions, a markdown file will be generated called PROREADME.md
+* Feel free to change the prompt questions add or minus from the index.js file.
+* The README.md content can also be changed in the generateMarkdown.js file.
+* This project uses the npm inquirer package.
 
 
-# Acceptance Criteria
-* GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+## License
+* This project is under the MIT license.
+* If you want to get more details about the license, please visit [Choose License](https://choosealicense.com "Choose License")
+
+## How to Contribute
+* Feel free to contact via email or github or fork my repo and request for pull request!
+
+## Tests
+* None available
+
+## Questions
+* Please contact me via my [Github Username](https://github.com/johnxlai)
+
+* You can reach me with additional questions <a href="mailto:lai.john.py@gmail.com">lai.john.py@gmail.com</a>
+
+
+## Repo
+https://github.com/johnxlai/pro-readme-generator
