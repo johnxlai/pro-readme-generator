@@ -44,4 +44,5 @@ As a developer, I want a README generator, so I can quickly create a professiona
 ## Repo
 https://github.com/johnxlai/pro-readme-generator
 ## WalkThrough Video
-https://github.com/johnxlai/pro-readme-generator
+https://drive.google.com/file/d/1rFyVwo3BxZfz61nIlltILiIfZNKw45uE/view
+
